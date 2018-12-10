@@ -31,6 +31,11 @@ In order to generate Avatar you can:
 **In Controller**
 
 ``` php
+// do not forget use
+use Dwr\AvatarBundle\Model\AvatarFactory;
+use Dwr\AvatarBundle\Model\PlainAvatar;
+use Dwr\AvatarBundle\Model\ProfileAvatar;
+
 public function indexAction()
     {
         
